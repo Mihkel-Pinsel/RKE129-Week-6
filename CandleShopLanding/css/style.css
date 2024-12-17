@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #2b3296a6;
+    padding: 2rem;
+    color: #000000;
+    border: 2px solid #e9f5ef;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.intro-text {
+    align-items: center;
+    background-color:#cc2f2f;
+    color:rgb(197, 197, 21);
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    margin-top: -4rem;
+    padding: 0 15rem;
+    clip-path: polygon(80% 8%, 100% 43%, 100% 86%, 0 99%, 0% 43%, 0 20%);
+}
+
+.intro-text__textbox h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    align-items: center;
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 450px;
+    margin-top: -2rem;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: #5851508a;
+    padding: 2rem;
+    color: #000000;
+    border: 5px solid #722310;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    align-items: center;
+    background-color: #8d8079;
+    color:green;
+    clip-path: polygon(100% 0, 100% 43%, 100% 100%, 0 96%, 0% 43%, 0 10%);
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    margin-top: -4rem;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+
+.tutorials-image {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('../img/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    justify-content: center;
+    margin-top: -2rem;
+}
+
+.tutorials-image__text a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5rem;
+    text-transform: uppercase;
+    background-color: #ac96967c;
+    margin-top: 8rem;
+    padding: 2rem;
+    color: #5ab170;
+    border: 50px solid #b38a5b;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.1);
+}
+
+
+
+.footer {
+    height: 250px;
+    background-color: #9c8d79;
+    color: #131a16; 
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #407259;
+    text-decoration: none;
+
+}
+
+
+
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: #2b5741;
+    transform: scale(1.3);
+}
